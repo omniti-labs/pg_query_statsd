@@ -6,8 +6,8 @@ pg_query_statsd is a small plugin for PostgreSQL that sends query statistics to 
 Installation
 ------------
 
-make USE_PGXS=1
-make USE_PGXS=1 install
+    make USE_PGXS=1
+    make USE_PGXS=1 install
 
 Configuration
 -------------
@@ -27,5 +27,5 @@ Output
 
 The current output sent to statsd looks something like this:
 
-> query:38.643|ms
-> tuples:2|c
+    query:38.643|ms
+    tuples:2|c
