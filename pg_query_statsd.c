@@ -213,15 +213,11 @@ new_executor_end(QueryDesc *queryDesc)
 static void
 assign_statsd_port(int newval, void *extra)
 {
-    // XXX not sure this is needed
-    //statsd_port = newval;
-    initialize_socket(statsd_host, statsd_port);
+    initialize_socket(statsd_host, newval);
 }
 
 static void
 assign_statsd_host(char *newval, void *extra)
 {
-    // XXX not sure this is needed
-    //statsd_host = newval;
-    initialize_socket(statsd_host, statsd_port);
+    initialize_socket(newval, statsd_port);
 }
