@@ -2,7 +2,7 @@
  *
  * pg_query_statsd.c
  *
- * Copyright (C) 2011, OmniTI Labs
+ * Copyright (C) 2012, OmniTI Labs
  *
  * IDENTIFICATION
  *  contrib/pg_query_statsd/pg_query_statsd.c
