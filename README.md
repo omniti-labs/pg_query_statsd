@@ -14,11 +14,11 @@ Configuration
 
 Add the following to your postgresql.conf
 
-> shared_preload_libraries = 'pg_query_statsd'
-> custom_variable_classes = 'pg_query_statsd'
-> 
-> pg_query_statsd.hostname = 'localhost' # The hostname of your statsd server
-> #pg_query_statsd.port = 8125           # Default port
+    shared_preload_libraries = 'pg_query_statsd'
+    custom_variable_classes = 'pg_query_statsd'
+    
+    pg_query_statsd.hostname = 'localhost' # The hostname of your statsd server
+    #pg_query_statsd.port = 8125           # Default port
 
 You can change the hostname and then reload the config for the changes to take effect.
 
