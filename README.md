@@ -1,7 +1,7 @@
 pg_query_statsd
 ===============
 
-pg_query_statsd is a small plugin for PostgreSQL that sends query statistics to statsd. Right now it sends runtime and tuples returned. I may add buffer usage as an option in the future.
+pg_query_statsd is a small plugin for PostgreSQL that sends query statistics to a statsd compatible interface. Right now it sends query runtime and total tuples returned.
 
 Installation
 ------------
