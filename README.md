@@ -29,3 +29,11 @@ The current output sent to statsd looks something like this:
 
     query:38.643|ms
     tuples:2|c
+
+Todo
+----
+
+ * Backport to PG 9.0 and 8.4
+ * Add sampling capability
+ * Add GUC's for custom bucket names
+ * Add buffer usage stats
